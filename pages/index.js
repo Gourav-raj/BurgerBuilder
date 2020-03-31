@@ -3,36 +3,36 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>Create Burger</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+       Build Your <a href="#">Burger</a>
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.js</code>
+        Check status of your Burger!!
       </p>
 
       <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
+        <a href="/burger" className="card">
+          <h3>Create &rarr;</h3>
+          <p>Build your burger using the features and API.</p>
         </a>
 
         <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <h3>Orders &rarr;</h3>
+          <p>Order your burger you made and rate your previous order !</p>
         </a>
 
         <a
           href="https://github.com/zeit/next.js/tree/master/examples"
           className="card"
         >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <h3>Track &rarr;</h3>
+          <p>If our order not been eaten the it must be on its ways:p</p>
         </a>
 
         <a
@@ -41,7 +41,7 @@ const Home = () => (
         >
           <h3>Deploy &rarr;</h3>
           <p>
-            Instantly deploy your Next.js site to a public URL with ZEIT Now.
+            Instantly deploy your burger to public. Share your recipe to others.
           </p>
         </a>
       </div>
@@ -49,11 +49,11 @@ const Home = () => (
 
     <footer>
       <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        href="https://github.com/Gourav-raj"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Created by Gourav !!
       </a>
     </footer>
 
